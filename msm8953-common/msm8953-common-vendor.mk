@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-	vendor/xiaomi/msm8953-common/proprietary/lib/libmacikin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacikin.so \
+    vendor/xiaomi/msm8953-common/proprietary/lib/libmacikin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmacikin.so \
     vendor/xiaomi/msm8953-common/proprietary/lib64/libbfqio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbfqio.so \
     vendor/xiaomi/msm8953-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/xiaomi/msm8953-common/proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar:system/framework/vendor.qti.hardware.alarm-V1.0-java.jar \
