@@ -16,6 +16,8 @@
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/ysl/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
+    vendor/xiaomi/ysl/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
+    vendor/xiaomi/ysl/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/ysl/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/ysl/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/xiaomi/ysl/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
@@ -35,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ysl/proprietary/vendor/etc/camera/ysl_s5k3p8sp_sunny_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ysl_s5k3p8sp_sunny_ii_chromatix.xml \
     vendor/xiaomi/ysl/proprietary/vendor/etc/camera/ysl_s5k5e8_aux_ofilm_i_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ysl_s5k5e8_aux_ofilm_i_chromatix.xml \
     vendor/xiaomi/ysl/proprietary/vendor/etc/camera/ysl_s5k5e8_aux_sunny_ii_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ysl_s5k5e8_aux_sunny_ii_chromatix.xml \
+    vendor/xiaomi/ysl/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/xiaomi/ysl/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/xiaomi/ysl/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
     vendor/xiaomi/ysl/proprietary/vendor/etc/qdcm_calib_data_auo_ili7807d_hd720_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_auo_ili7807d_hd720_video_mode_dsi_panel.xml \
